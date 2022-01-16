@@ -1,0 +1,17 @@
+bean 객체?
+Spring IoC 컨테이너가 관리하는 자바 객체를 빈(Bean)
+spring boot가 아니라면
+해야하는 설정 tomcat server를 매핑해야함 web.xml
+bean등록을 위한 설정 bean -> xml로 명시적
+어노테이션 지정 ->componentscan 
+
+spring에서 설정 방법
+ 1.xml 설정 
+ 2. java파일을 (클래스) +confiuration(어노테이션) = 설정을 위한 클래스다라고 명시적   으로 표현
+
+@springbootapplication
+은 
+@org.springframework.boot.SpringBootConfiguration
+@org.springframework.boot.autoconfigure.EnableAutoConfiguration
+@org.springframework.context.annotation.ComponentScan
+3개 포함
